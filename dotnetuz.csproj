@@ -8,8 +8,7 @@
     <Description>This is tester for your dotnet</Description>
     <OutputType>Exe</OutputType>
     <PackageTags>dotnet;uz;uzbek;uzbekistan;csharp;console;tool</PackageTags>
-    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
-    <ImplicitUsings>enable</ImplicitUsings>
+    <TargetFrameworks>net8.0;net9.0;net10.0;netstandard2.1</TargetFrameworks>
     <Nullable>enable</Nullable>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>dotnet-uz</ToolCommandName>
