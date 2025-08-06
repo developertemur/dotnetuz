@@ -2,18 +2,20 @@
 
   <PropertyGroup>
     <PackageId>dotnet-uz</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.2</Version>
     <Authors>G'aniyev Temur</Authors>
-    <PackageIcon>icon.png</PackageIcon>
+    <PackageIcon>uz.png</PackageIcon>
     <Description>This is tester for your dotnet</Description>
     <OutputType>Exe</OutputType>
     <PackageTags>dotnet;uz;uzbek;uzbekistan;csharp;console;tool</PackageTags>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>dotnet-uz</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
       <None Include="images\uz.png" Pack="true" PackagePath="\"/>
