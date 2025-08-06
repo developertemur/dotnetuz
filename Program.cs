@@ -1,4 +1,5 @@
-﻿string word=@"
+﻿
+      string word = @"
                           ....
                           ....'
                            ....
